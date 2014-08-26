@@ -56,4 +56,11 @@ public class ProductCatalogData {
 		}
 		return true;
 	}
+
+	public List<Product> getProductsV2(String category) {
+		List<Product> products = new ArrayList<>();
+		products.add(new Product("Pavarotti CD", "122", 100.34));
+		products.add(new Product("The three tenors CD", "1432422", 400));
+		return products;
+	}
 }
